@@ -1,0 +1,272 @@
+* {
+  font-size: "Microsoft YaHei";
+  transition: color .3s;
+  -moz-transition: color .3s;	/* Firefox 4 */
+  -webkit-transition: color .3s;	/* Safari 和 Chrome */
+  -o-transition: color .3s;	/* Opera */
+}
+
+a {
+    text-decoration: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clear-float:after,
+.clear-float:before {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.bg {
+    background-image: url(../imgs/bg.png);
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    height: 199px;
+    float: left;
+    width: 1072px;
+    margin-left: 188px;
+}
+
+.header_logo {
+    float: left;
+    /*margin-left: 184px;*/
+    margin-top: 48px;
+    width: 185px;
+    height: 100%;
+}
+
+.byJH {
+    font-size: 12.4px;
+    color: #ffffff;
+    margin-left: 55px;
+    margin-top: 3px;
+}
+
+.header_img {
+    float: left;
+    margin-left: 13px;
+    margin-top: 24px;
+    filter:alpha(opacity=67);
+    -moz-opacity: 0.67;
+    opacity: 0.67;
+}
+
+.header_nav {
+    float: left;
+    width: 328px;
+    height: 22px;
+    margin-left: 86px;
+    margin-top: 124px;
+}
+
+.header_nav_img {
+    float: left;
+}
+
+.header_nav_list {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 22px;
+    float: left;
+    margin-left: 21px;
+}
+
+.main {
+    margin-left: 188px;
+    width: 1072px;
+    float: left;
+}
+
+.part {
+    float: left;
+    width: 178px;
+    height: 845px;
+    background-color: #ffffff;
+}
+
+.news {
+    float: right;
+    width: 848px;
+    padding-bottom: 16px;
+    background-color: #ffffff;
+}
+
+.main_top {
+    width: 100%;
+    height: 34px;
+    background-color: #e4e4e4;
+}
+
+.main_logo {
+    float: left;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.main_title {
+    font-size: 20px;
+    color: #44659a;
+    float: left;
+    margin-left: -2px;
+    line-height: 34px;
+}
+
+.hr_size {
+    height: 1px;
+    width: 100%;
+}
+
+.part_hr {
+    height: 1px;
+    width: 100%;
+    margin-top: 1px;
+    margin-left: 15px;
+    background-color: #e0e0e0;
+    border: none;
+}
+
+.part_list {
+    width: 100%;
+    height: 788px;
+}
+
+.college {
+    color: #000000;
+    margin-left: 15px;
+    margin-top: 8px;
+    margin-bottom: 13px;
+    font-size: 16px;
+}
+
+.rss_bg {
+    width: 100%;
+    height: 22px;
+    background-color: #354f86;
+    text-align: center;
+    line-height: 22px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.news_btn {
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    color: #191919;
+    margin-top: 10px;
+    margin-right: 22px;
+}
+
+.news_select {
+    float: right;
+    margin-right: 18px;
+    /* background-color: #f8f8f8; */
+}
+
+.news_select .select_des {
+    color: #8b8b8b;
+    font-size: 14px;
+}
+
+.news_hr {
+    height: 1px;
+    width: 99%;
+    margin-top: 1px;
+    margin-left: auto;
+    background-color: #e0e0e0;
+    border: none;
+}
+
+.per_news {
+    color: #000000;
+}
+
+.per_news .title {
+    font-size: 18px;
+    width: 760px;
+    float: left;
+    margin-left: 11px;
+    margin-top: 16px;
+}
+
+.per_news .des {
+    width: 61px;
+    height: 18px;
+    background-color: #2e4466;
+    border-radius: 4px;
+    float: right;
+    margin-top: 17px;
+    margin-right: 16px;
+
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 18px;
+}
+
+.per_news .continer {
+    width: 100%;
+    float: left;
+    margin-top: 24px;
+}
+
+.news_detile {
+    float: right;
+    margin-right: 15px;
+
+    font-size: 16px;
+}
+
+.footer {
+  width: 1072px;
+  height: 120px;
+  display: inline-block;
+  margin-left: 188px;
+  margin-top: 100px;
+  font-size: 13px;
+  color: #fff;
+  z-index: -1;
+}
+
+.contact {
+  line-height: 20px;
+}
+
+.icon img {
+  height: 30px;
+  width: 30px;
+}
+
+.icon * {
+  display: inline-block;
+}
+
+.QRcode img {
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.weiquan img {
+  margin-left: 11px;
+  margin-bottom: 10px;
+}
+
+.QRcode {
+  margin-right: 30px;
+}
+
+.cpyr {
+  display: inline-block;
+  margin-top: 100px;
+}
